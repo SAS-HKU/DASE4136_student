@@ -1,6 +1,20 @@
-# DASE4136 Intelligent Transportation and Autonomous Driving 
-## (BEng course, starting 2026 Spring)
-## Department of Data and Systems Engineering, The University of Hong Kong
-This repository contains the lab sheets and related resources for lab sessions available to students taking DASE4136, taught by Prof. Chen Sun. <br />
-In this repository, various lab exercises are available in different branches (e.g., setup, LabOne). You may change the branch to the respective exercises and access the materials.
-### This repo is under continuous updating. Any technical issues, bugs found, and constructive feedback, please contact Teaching Assistant via email: peterwang.dase@connect.hku.hk
+# ROS Setup
+
+Install ROS2
+
+Download the script (or if you installed git, clone this repository with the following command:
+
+```bash
+git clone https://github.com/PeterWANGHK/DASE4136_student.git
+```
+then change the branch to setup with 
+```bash
+git checkout setup
+```
+Run the script to install the relevant packages for ROS development:
+```bash
+sh setup_dase7505.sh
+```
+that will take care of installing everything you need for this course. Be patient since it involves a lot of packages and you will see the page like this if everything is fine
+
+![Alt text](figs/ros_setup_completed.png)
