@@ -16,5 +16,3 @@ Run the script to install the relevant packages for ROS development:
 sh setup_dase4136.sh
 ```
 that will take care of installing everything you need for this course. Be patient since it involves a lot of packages and you will see the page like this if everything is fine
-
-![Alt text](figs/ros_setup_completed.png)
