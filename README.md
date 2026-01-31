@@ -7,7 +7,7 @@ In this repository, various hands-on lab exercises are available in different br
 
 The hands-on lab sessions for this course include:
 - ROS Virtual Machine Setups and basic operations
-- Mapping in selected environments around campus using ROS2 robotic platforms
+- Localization and Mapping in selected environments around campus using ROS2 robotic platforms
 - Navigation using different path planning algorithms
 - Feedback control trial in MATLAB and ROS 
 
