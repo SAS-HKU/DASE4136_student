@@ -1,4 +1,5 @@
 # DASE4136 Intelligent Transportation and Autonomous Driving 
+![DASE](/assests/DASE.png)
 ## (BEng course, starting 2026 Spring)
 ## Department of Data and Systems Engineering, The University of Hong Kong
 This repository contains the lab sheets and related resources for lab sessions available to students taking DASE4136, taught by Prof. Chen Sun. <br />
