@@ -16,3 +16,7 @@ Before heading to a destination, whether we have a map or not, we certainly need
 A usable map must have: clear obstacle boundaries; consistency with the real environment (proper loop closures); no unscanned "gray" zones in operational areas; minimal artifacts from transient objects (e.g., people); and full perceptual coverage from any point within the active region.
 
 # Step-by-step Instructions:
+
+
+## Demonstration of RTAB mapping:
+[![Watch the demo](https://i9.ytimg.com/vi/D1kEoad1aVk/mq2.jpg?sqp=CPji_csG-oaymwEmCMACELQB8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgZShlMA8=&rs=AOn4CLDrAZt6JgY2sK5EMefUHxxCmuVrHg)](https://youtu.be/D1kEoad1aVk)
