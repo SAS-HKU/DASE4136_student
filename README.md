@@ -52,3 +52,17 @@ The supported version for these lab exercises is Ubuntu 22.04 with ROS 2 Humble.
 ### For Mac users
 
 Try this link for setting up Ubuntu on Mac OS: https://medium.com/@MinghaoNing/how-to-set-up-vmware-ubuntu-22-ros2-and-gazebo-on-arm64-like-apple-silicon-or-jetson-5bb4db6ff297
+![DASE](/assests/DASE.png)
+# DASE4136 Intelligent Transportation and Autonomous Driving 
+## (BEng in DASE course, starting 2026 Spring)
+## Department of Data and Systems Engineering, The University of Hong Kong
+This repository contains the lab sheets and related resources for lab sessions available to students taking DASE4136, taught by Prof. Chen Sun. <br />
+In this repository, various hands-on lab exercises are available in different branches (e.g., setup, Mapping). You may change the branch to the respective exercises and access the materials. In each branch, the lab instruction sheet in pdf is also available for downloading apart from the readme instructions.
+
+The hands-on lab sessions for this course include:
+- ROS Virtual Machine Setups and basic operations
+- Localization and Mapping in selected environments around campus using ROS2 robotic platforms
+- Navigation using different path planning algorithms
+- Feedback control trial in MATLAB and ROS 
+
+### This repo is under continuous updating. Any technical issues, bugs found, and constructive feedback, please contact Teaching Assistant via email: peterwang.dase@connect.hku.hk
