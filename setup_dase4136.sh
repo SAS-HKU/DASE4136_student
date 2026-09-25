@@ -1,3 +1,4 @@
+#!/bin/sh
 
 set -e
 
@@ -75,18 +76,10 @@ echo "--------------------------------"
 sleep 1
 
 
-if [ -d "/home/$USER/robohub" ]
-then
-    echo "already made the glone"
-else
-
-   mkdir /home/$USER/robohub && cd /home/$USER/robohub && git clone https://git.uwaterloo.ca/robohub/turtlebot4.git
-
-fi
+# Local simulation uses the standard ROS packages below.
+# No Waterloo checkout or custom Fast DDS profile is needed.
 
 sudo apt install -y ros-humble-rmw-fastrtps-cpp
-
-cp /home/$USER/robohub/turtlebot4/configs/.fastdds.xml /home/$USER/
 
 sleep 1
 
@@ -94,10 +87,11 @@ sudo apt install -y ros-humble-turtlebot4-desktop
 
 sleep 1
 
-sudo apt install -y ros-humble-turtlebot3*
+sudo apt install -y 'ros-humble-turtlebot3*'
 
 
 echo "--------------------------------"
 echo "....turtlebot enviornment is correctly set!...."
 echo "--------------------------------"
+echo "Open a new terminal or run: source ~/.bashrc"
 
