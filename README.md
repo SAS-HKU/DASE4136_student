@@ -70,10 +70,7 @@ The supported version for these lab exercises is Ubuntu 22.04 with ROS 2 Humble.
 ### For Mac users
 
 Try this link for setting up Ubuntu on Mac OS: https://medium.com/@MinghaoNing/how-to-set-up-vmware-ubuntu-22-ros2-and-gazebo-on-arm64-like-apple-silicon-or-jetson-5bb4db6ff297
-![DASE](/assests/DASE.png)
-# DASE4136 Intelligent Transportation and Autonomous Driving 
-## (BEng in DASE course, starting 2026 Spring)
-## Department of Data and Systems Engineering, The University of Hong Kong
+
 This repository contains the lab sheets and related resources for lab sessions available to students taking DASE4136, taught by Prof. Chen Sun. <br />
 The ROS installation instructions and setup script are on the `setup` branch. Hands-on lab materials are available in the `Mapping` and `Navigation` branches; switch to the relevant branch to access its materials.
 
