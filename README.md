@@ -9,7 +9,7 @@ Open a terminal and run these commands in order:
 ```bash
 sudo apt update
 sudo apt install -y git
-git clone --branch setup https://github.com/SAS-HKU/DASE4136_student.git
+git clone --branch main https://github.com/SAS-HKU/DASE4136_student.git
 cd DASE4136_student
 bash setup_dase4136.sh
 source ~/.bashrc
@@ -17,18 +17,35 @@ source ~/.bashrc
 
 Run the script without a leading `sudo`; it requests sudo when installing system packages. Installation may take some time because it downloads ROS 2 and simulation packages. Continue only after each command succeeds.
 
+The installer is now on `main`; the former `setup` branch has been merged and removed. Older lab handouts may refer to `DASE7505_student` or `setup_dase7505.sh`. For DASE4136, use the repository and script named above.
+
 ## Existing checkout or a previous failed installation
 
 From inside your existing `DASE4136_student` directory, run:
 
 ```bash
-git checkout setup
-git pull --ff-only origin setup
-bash setup_dase4136.sh
+git fetch origin &&
+git checkout main &&
+git pull --ff-only origin main &&
+bash setup_dase4136.sh &&
 source ~/.bashrc
 ```
 
 If Git reports local changes, save or commit your edits before updating. A previous failed Waterloo download does not require deleting the repository or reinstalling Ubuntu; rerun the updated script.
+
+### Missing `.fastdds.xml` after a previous installation attempt
+
+If an old script prints `already made the glone` and then `cp: cannot stat .../robohub/turtlebot4/configs/.fastdds.xml`, it has stopped at the obsolete Waterloo configuration step. The folder check does not prove that the earlier clone succeeded. The corrected `setup_dase4136.sh` does not perform this copy.
+
+For the simulation-only setup, if ROS 2 and Fast DDS have already installed successfully as shown before this error, finish the remaining package installations with:
+
+```bash
+sudo apt update &&
+sudo apt install -y ros-humble-turtlebot4-desktop 'ros-humble-turtlebot3*' &&
+source ~/.bashrc
+```
+
+Then run the verification commands below. No Waterloo account or XML download is required.
 
 ## Installed packages and verification
 
@@ -57,7 +74,7 @@ Try this link for setting up Ubuntu on Mac OS: https://medium.com/@MinghaoNing/h
 ## (BEng in DASE course, starting 2026 Spring)
 ## Department of Data and Systems Engineering, The University of Hong Kong
 This repository contains the lab sheets and related resources for lab sessions available to students taking DASE4136, taught by Prof. Chen Sun. <br />
-In this repository, various hands-on lab exercises are available in different branches (e.g., setup, Mapping). You may change the branch to the respective exercises and access the materials. In each branch, the lab instruction sheet in pdf is also available for downloading apart from the readme instructions.
+The ROS installation instructions and setup script are on `main`. Hands-on lab materials are available in the `Mapping` and `Navigation` branches; switch to the relevant branch to access its materials.
 
 The hands-on lab sessions for this course include:
 - ROS Virtual Machine Setups and basic operations
