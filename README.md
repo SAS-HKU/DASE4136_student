@@ -70,7 +70,7 @@ The supported version for these lab exercises is Ubuntu 22.04 with ROS 2 Humble.
 ### For Mac users
 
 Try this link for setting up Ubuntu on Mac OS: https://medium.com/@MinghaoNing/how-to-set-up-vmware-ubuntu-22-ros2-and-gazebo-on-arm64-like-apple-silicon-or-jetson-5bb4db6ff297
-![DASE](/assests/DASE.png)
+
 # DASE4136 Intelligent Transportation and Autonomous Driving 
 ## (BEng in DASE course, starting 2026 Spring)
 ## Department of Data and Systems Engineering, The University of Hong Kong
