@@ -96,6 +96,9 @@ The supported platform for these lab exercises is Ubuntu 22.04 amd64 with ROS 2 
 
 On an Intel Mac, use an Ubuntu 22.04 amd64 VM and verify graphics support with Step 16. On Apple Silicon (M-series), a native Ubuntu VM is ARM64 and does not meet this lab's Gazebo Classic binary requirements. Use an Intel/AMD lab PC or remote desktop to an Ubuntu 22.04 amd64 machine. Keep the existing ARM64 VM and coursework; no uninstall is needed.
 
+# DASE4136 Intelligent Transportation and Autonomous Driving 
+## (BEng in DASE course, starting 2026 Spring)
+## Department of Data and Systems Engineering, The University of Hong Kong
 This repository contains the lab sheets and related resources for lab sessions available to students taking DASE4136, taught by Prof. Chen Sun. <br />
 The ROS installation instructions and setup script are on the `setup` branch. Hands-on lab materials are available in the `Mapping` and `Navigation` branches; switch to the relevant branch to access its materials.
 
