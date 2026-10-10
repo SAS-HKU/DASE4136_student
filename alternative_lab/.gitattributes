@@ -1,0 +1,8 @@
+* text=auto
+*.m text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.csv text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+*.docx binary

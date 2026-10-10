@@ -1,0 +1,2 @@
+Lookahead_m,DesiredSpeed_m_s,ReachedGoal,CollisionDetected,StopReason,SimulatedTime_s,FinalGoalDistance_m,TrackingRMSE_m,MaxTrackingError_m,TravelDistance_m
+0.35,0.4,1,0,Goal reached,48.05,0.149247812342986,0.0125363225803649,0.0395703449400523,19.2197966497803

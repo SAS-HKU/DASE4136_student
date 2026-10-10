@@ -1,3 +1,18 @@
+# MATLAB Alternative Lab: Robot Motion Control Using a Lidar Map
+
+This branch includes a 90-minute MATLAB lab for Mac and Windows. Build a
+lidar SLAM map, generate one supporting route, then study differential-drive
+feedback control and compare two pure pursuit look-ahead settings.
+
+- [MATLAB setup, code and download instructions](alternative_lab/README.md)
+- [Editable Word student lab sheet](alternative_lab/docs/DASE4136_MATLAB_Lab_Sheet.docx)
+- [Instructor notes](alternative_lab/docs/INSTRUCTOR_NOTES.md)
+- [Executed validation and Mac compatibility](alternative_lab/docs/VALIDATION.md)
+
+Open the `alternative_lab` subfolder in MATLAB. This MATLAB lab requires
+Navigation Toolbox and Robotics System Toolbox; the ROS setup below is for
+the separate ROS labs.
+
 # ROS Virtual Environment Setup
 
 This setup is for the DASE4136 simulation labs on **Ubuntu 22.04 (Jammy), amd64 (Intel/AMD)**, including a virtual machine on an Intel/AMD computer. Run the commands inside Ubuntu as your normal user with sudo access and an internet connection.
