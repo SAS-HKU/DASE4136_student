@@ -1,0 +1,19 @@
+Check,Passed
+SLAM poses are finite,1
+SLAM accepts the baseline scans,1
+Estimated map trajectory has acceptable baseline error,1
+Planning uses the SLAM map and blocks unknown cells,1
+Mapping and navigation share the same coordinate frame,1
+RRT returns a motion-valid supporting route,1
+Route reaches the requested goal region,1
+Baseline controller reaches the goal without a collision guard stop,1
+Final control position satisfies the stopping tolerance,1
+Baseline tracking RMSE is below 0.1 m,1
+Applied wheel speeds obey the limit,1
+Controller curvature is converted to heading rate,1
+Wheel speeds produce the recorded vehicle speed,1
+Wheel speeds produce the recorded heading rate,1
+Command and state logs have consistent sample times,1
+Recorded robot poses are footprint-valid on the map,1
+Unsafe reference is stopped by the collision guard,1
+Collision guard does not accept a blocked pose,1

@@ -1,0 +1,7 @@
+output/
+tmp/
+dist/
+*.asv
+*.m~
+.DS_Store
+Thumbs.db
